@@ -46,19 +46,19 @@ plugins:
 
   # Days until / since a target date. Hash-style — labels become keys.
   # Use as: {{ vars.CountdownPlugin.label.days }}, .target, .passed
-  - CountdownPlugin:
-      linkyee_release: "2024-12-21"
+  #- CountdownPlugin:
+  #    linkyee_release: "2024-12-21"
 
   # Latest video for one or more YouTube channels (channel id, @handle, or URL).
   # Use as: {{ vars.YouTubeChannelLatestVideoPlugin['@handle'].title }}
   #         {{ vars.YouTubeChannelLatestVideoPlugin['@handle'].url }}
-  - YouTubeChannelLatestVideoPlugin:
-      - "@zhgchgli"
+  # - YouTubeChannelLatestVideoPlugin:
+  #    - "@zhgchgli"
 
 # -----------------------------------------------------------------------------
 # Tracking
 # -----------------------------------------------------------------------------
-google_analytics_id:
+# google_analytics_id:
 
 # -----------------------------------------------------------------------------
 # Profile header
@@ -67,7 +67,7 @@ title: "Diego Giuliano"
 avatar: "./images/diego.jpeg"
 name: "@DiegoGiuliano"
 tagline: >-
-    Diputado de la Nación
+    Diputado de la Nación 🇦🇷
 
 # -----------------------------------------------------------------------------
 # Links
@@ -102,13 +102,19 @@ socials:
       title: "Instagram"
       alt: "Instagram"
       target: "_blank"
+  - social:
+      icon: "fa-solid fa-envelope"
+      url: "mailto:dgiuliano@hcdn.gob.ar"
+      title: "Email"
+      alt: "Email"
+      target: "_blank"
 
 # -----------------------------------------------------------------------------
 # Footer (uses CountdownPlugin)
 # -----------------------------------------------------------------------------
 footer: >
-    Av. Rivadaviaa 1841
+    Av. Rivadavia 1841
     Anexo C - p.8° of. 806
 
     Tel. 011-60757100 Int.8967
-    dgiulaino@hcdn.gob.ar
+    dgiuliano@hcdn.gob.ar
