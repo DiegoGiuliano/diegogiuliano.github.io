@@ -65,7 +65,7 @@ google_analytics_id:
 # -----------------------------------------------------------------------------
 title: "Diego Giuliano"
 avatar: "./images/profile.jpeg"
-name: "@zhgchgli"
+name: "@DiegoGiuliano"
 tagline: >-
     Diputado de la Nación
 
@@ -86,21 +86,21 @@ tagline: >-
 socials:
   - social:
       icon: "fa-brands fa-twitter"
-      url: "https://twitter.com/zhgchgli"
-      title: "ZhgChgLi's Twitter"
-      alt: "ZhgChgLi's Twitter"
+      url: "https://x.com/DiegoGiuliano"
+      title: "Twitter"
+      alt: "Twitter"
       target: "_blank"
   - social:
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/zhgchgli/"
-      title: "ZhgChgLi's LinkedIn"
-      alt: "ZhgChgLi's LinkedIn"
+      url: "https://ar.linkedin.com/in/diego-giuliano-899a4810b"
+      title: "LinkedIn"
+      alt: "LinkedIn"
       target: "_blank"
   - social:
       icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/zhgchgli/"
+      url: "https://www.instagram.com/diego.giuliano/"
       title: "Instagram"
-      alt: "ZhgChgLi's Instagram"
+      alt: "Instagram"
       target: "_blank"
 
 # -----------------------------------------------------------------------------
